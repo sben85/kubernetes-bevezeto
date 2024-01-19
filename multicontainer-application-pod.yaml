@@ -18,7 +18,8 @@ spec:
     args:
       - while true; do
           echo "Kubernetes:" $(date) > /html/index.html;
-          sleep;
+          sleep 1;
+        done
    volumes:
    - name: html
    emptyDir: {}
