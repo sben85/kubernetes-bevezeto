@@ -19,6 +19,6 @@ spec:
       - while true; do
           echo "Kubernetes:" $(date) > /html/index.html;
           sleep;
-volumes:
-- name: html
-  emptyDir: {}
+   volumes:
+   - name: html
+   emptyDir: {}
