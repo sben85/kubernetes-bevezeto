@@ -22,4 +22,4 @@ spec:
         done
   volumes:
   - name: html
-  emptyDir: {}
+    emptyDir: {}
